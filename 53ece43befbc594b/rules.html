@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>玩家規則書｜海禁：臺灣海峽</title>
+  <link rel="stylesheet" href="rulebook.css">
+</head>
+<body id="top">
+  <a href="#main" class="skip">跳至規則正文</a>
+  <header class="mast"><div class="wrap mast-inner"><a href="../" class="brand"><span aria-hidden="true">海</span> 海禁 <small>臺灣海峽</small></a><a class="back" href="../">返回遊戲 ↗</a></div></header>
+  <div class="hero"><div class="wrap hero-inner">
+    <div>
+      <p class="edition">經典模式 · V1.5</p>
+      <h1>玩家規則書</h1>
+      <p class="intro">你是往返臺灣與福建的明鄭海商。競標船長、派手下、投資股票，並與同船船員決定是否冒險走私。</p>
+      <p class="goal"><strong>獲勝目標</strong>　終局總財富最高。集齊任一商品的 5 張股票會在當季完整結算後提前終局。</p>
+      <a class="start" href="#season">從一季流程開始 ↓</a>
+    </div>
+    <figure class="manifest">
+      <figcaption>開局 · 四名海商</figcaption>
+      <dl><div><dt>現銀</dt><dd>30 銀</dd></div><div><dt>手下</dt><dd>4 枚</dd></div><div><dt>秘密股票</dt><dd>2 張</dd></div></dl>
+      <p>以上為每人起始資源。令旗 0 枚，四貨股價與去程價差均由 0 開始。</p>
+    </figure>
+  </div></div>
+  <div class="wrap reading">
+    <aside><nav aria-label="規則目錄"><h2>規則目錄</h2><ol>
+      <li><a href="#season">一季怎麼玩</a></li><li><a href="#captain">競標、買股與配船</a></li>
+      <li><a href="#board">棋盤與航行</a></li><li><a href="#goods">席位費與去程分紅</a></li>
+      <li><a href="#pirates">海盜兩輪判定</a></li><li><a href="#market">股價、價差與事件</a></li>
+      <li><a href="#return">回程投票與官府包銷</a></li><li><a href="#custody">緝私、拘押與令旗</a></li>
+      <li><a href="#scoring">季末與終局</a></li><li><a href="#index">判例與術語索引</a></li>
+    </ol><a class="top-link" href="#top">回頁首 ↑</a></nav></aside>
+    <main id="main" tabindex="-1">
+      <section id="season">
+        <h2>一季怎麼玩</h2>
+        <ol class="flow">
+          <li><strong>開季</strong><span>公開天氣與政經各一張。</span></li>
+          <li><strong>競標船長</strong><span>得標者付標金，選擇認股及配三船。</span></li>
+          <li><strong>配置與航行</strong><span>三輪各可派手下或 PASS，再擲航行骰；第三輪先大領航、後小領航。骰後依輪次判定海盜。</span></li>
+          <li><strong>去程結算</strong><span>先定入港順序及適用商情，分船運獎金、派港停獎金、結保險，再更新兩種市價指標。</span></li>
+          <li><strong>依幕別回程</strong><span>第一／三幕先配置緝私營，再逐船投票、擲走私骰及結算。第二幕直接官府包銷，不投票、不擲骰。</span></li>
+          <li><strong>確認季末</strong><span>贖回、釋放到期手下、檢查延長或終局。</span></li>
+        </ol>
+        <h3>三幕時間軸</h3>
+        <div class="acts">
+          <article><b>第一幕</b><h4>海禁與軍需</h4><p><strong>第 1–3 季</strong><br>軍武成功可領令旗。</p></article>
+          <article><b>第二幕</b><h4>反攻閩南</h4><p><strong>第 4–5 季</strong><br>軍備達標為第 4–6 季。官府包銷。</p></article>
+          <article><b>第三幕</b><h4>海疆危局</h4><p><strong>第 6–7 季</strong><br>軍備達標為第 7–8 季。軍武獎金提高。</p></article>
+        </div>
+        <p class="note">第一幕軍武實際成功至少 <strong>2 次</strong>，於第 3 季全部結算後確認第二幕增加一季。成功次數按船計，令旗按枚計。每種商品共有 5 張股票，任一玩家獨佔同商品五張（含抵押）可提前終局。</p>
+        <p class="source">依正式規則 §§1–4、18。</p>
+      </section>
+      <section id="captain">
+        <h2>競標、買股與配船</h2>
+        <p>先看當季兩張公開卡，再競標。得標者支付自己的標金，取得買股與派船權。船運分紅只給實際在船的船員。</p>
+        <div class="split">
+          <article class="tile"><h3>公開喊價</h3><p>整數、最低 1 銀。順時針出價，每次高於最高標，或 PASS 退出且本季不得再參加。第一季由預先決定的起標玩家先喊；後續公開競標由上一季船長先喊。</p></article>
+          <article class="tile"><h3>一次密封出價</h3><p>四人各交一次非負整數標金，收齊才揭曉。0 銀有效；並列最高者抽籤。四人都出 0 也抽籤，得標者付 0。</p></article>
+        </div>
+        <p>開局可選全公開、全秘密或<strong>預設混合（第一幕公開，第二／三幕秘密）</strong>。先依合法時機籌足標金；抵押潛力本身不能當現銀使用。</p>
+        <ol><li><strong>買股</strong>：船長可不買，或依公開庫存買一張，價格取 5 銀和當前股價中較高者。藩庫徵調可買至兩張不同商品，逐張付款。玩家間不可交易。</li><li><strong>派船</strong>：四貨擇三且不可重複。每艘起點第 1–5 格，三船起點合計至多 9 格。例：2＋3＋4 合法。</li></ol>
+        <p class="source">依 §§2、5、10.3、11.4、23；延續 V1.3 §5 競標程序。</p>
+      </section>
+      <section id="board">
+        <h2>棋盤與航行</h2>
+        <figure class="chart">
+          <div class="dock-map"><strong>停泊</strong><span>結果 ① ② ③ · 三個下注席</span></div>
+          <div class="chart-body">
+            <div class="lanes" role="group" aria-label="三條各 13 格的航道示意，船由左往右航行">
+              <div class="lane"><b>🦌 鹿皮</b><span class="cells" aria-hidden="true"><i></i><i></i><i></i><i>⛵</i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></div><div class="lane"><b>⚪ 硫磺</b><span class="cells" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i>⛵</i><i></i><i></i><i></i><i></i><i></i><i></i></span></div><div class="lane"><b>🌾 稻米</b><span class="cells" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i>⛵</i><i></i><i></i><i></i></span></div>
+              <span class="ticks" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span></span>
+              <div class="pirate-map">海盜 ① ② · 第 13 格</div>
+            </div>
+            <div class="port-map"><strong>港口</strong><span>共用泊位<br>① ② ③</span><span>另設三個下注席</span></div>
+          </div>
+          <div class="chart-foot"><span>船貨旁 · 船員席</span><span>輔助 · 保險、大小領航</span></div>
+          <figcaption>桌面由左往右，停泊在上、港口在右。手機航道由下往上，港口在第 13 格上方，停泊在右。泊位按正式到港順序共用，下注席另計。</figcaption>
+        </figure>
+        <ol>
+          <li>每輪從船長起順時針，各派一枚可用手下或 PASS。已部署或拘押中的手下不能重用。被踢棋子回手，等下一次合法機會再派。</li>
+          <li>每輪每艘未結束船各擲 1 顆六面骰。第一輪航程遇颱風 −1、順風 +1、正常 0；颱風骰 1 前進 0 格。</li>
+          <li>第三輪配置後先大領航（6 銀，合計最多 2 格），再小領航（2 銀，最多 1 格）。可前進或後退，大領航可分配到不同船。領航推至 13 立即入港；停在 13 尚未入港的船可後推。</li>
+        </ol>
+        <div class="note"><strong>擲骰超過 13 才正常入港。</strong> 第二、三骰恰好 13 分別進登船、劫船判定。第三輪仍未正式入港，該船便停泊。澎湖暗礁只在擲骰恰停第 8 格時立即判失敗；跨越或領航推到 8 無效。</div>
+        <p>已完成去程的船不可再加船員。第二、三輪仍可對合法空港停席下注，即使達標數已確定。</p>
+        <p class="source">依 §§2、4、7–9、11.6、20。示意對照 M10 手機／桌面棋盤。</p>
+      </section>
+      <section id="goods">
+        <h2>席位費與去程分紅</h2>
+        <div class="table-frame"><table id="outbound-values">
+          <caption>四種去程商品（銀）</caption>
+          <thead><tr><th scope="col">商品</th><th scope="col">整船基礎獎金</th><th scope="col">第 1 席至末席的費用</th></tr></thead>
+          <tbody><tr><th scope="row">🦌 鹿皮</th><td>36</td><td>4／5／6／6</td></tr><tr><th scope="row">🎋 蔗糖</th><td>32</td><td>3／4／5／6</td></tr><tr><th scope="row">⚪ 硫磺</th><td>30</td><td>4／5／6</td></tr><tr><th scope="row">🌾 稻米</th><td>24</td><td>2／3／4</td></tr></tbody>
+        </table></div>
+        <p><strong>整船分紅池＝基礎獎金＋本季有效去程價差＋適用的一次性事件。</strong> 成功船按實際船員整數均分，多出來的銀兩由較前席依序各拿 1 銀。達不到港沒有船運分紅，也不能回程。</p>
+        <p class="note">假設鹿皮整船有 37 銀，兩枚實際船員依席序分 19／18 銀。船位費已在配置時付過，分紅時不再扣。</p>
+        <h3 id="port">港口、停泊與保險</h3>
+        <div class="table-frame"><table><caption>港口與停泊各三席（正常天氣，銀）</caption><thead><tr><th scope="col">席位／命中門檻</th><th scope="col">下注費</th><th scope="col">命中總領取</th></tr></thead>
+        <tbody><tr><th scope="row">1 · 至少 1 艘</th><td>4</td><td>6</td></tr><tr><th scope="row">2 · 至少 2 艘</th><td>3</td><td>8</td></tr><tr><th scope="row">3 · 全部 3 艘</th><td>2</td><td>15</td></tr></tbody></table></div>
+        <p>港口押入港數，停泊押失敗數。占用的各席獨立算，空席不派彩。颱風使每個命中的港口席多領 2 銀，順風使每個命中的停泊席多領 2 銀。</p>
+        <p><strong>保險員</strong>只有一席，不收占位費，立即領 10 銀（颱風 14）。公庫全額先付中獎停泊席，保險員再向公庫償還所有實付停泊獎金，即使扣完現銀為負也照付。</p>
+        <p class="source">依 §§6、9、10.1、11.1。</p>
+      </section>
+      <section id="pirates">
+        <h2>海盜兩輪判定</h2>
+        <p>兩個海盜席各 <strong>7 銀</strong>，全場每季成功下注合計最多兩次。登船騰出空席也不歸還名額，第一海盜優先，多艘船符合時可自主選合法目標。</p>
+        <p class="branch-trigger">航行擲骰恰好停在第 13 格</p>
+        <div class="split pirate-branches">
+          <article class="tile branch"><h3>第二骰恰好 13 · 登船</h3><ol><li>有空席：只能加入空席。</li><li>滿船：可換下一名合法一般船員。當季第二輪已登船的海盜受保護，不能被後來海盜替換。</li><li>登船者成為一般船員，取得分紅及投票權，失去留守海盜的第三輪劫船權。放棄則留守至第三輪。</li></ol></article>
+          <article class="tile branch"><h3>第三骰恰好 13 · 劫船</h3><ol><li>第一位劫持者清空原船員、占第 1 席，暫定入港或停泊。整船劫持可踢下第二輪登船的海盜。</li><li>若另有合資格第二海盜，可入合法空席或放棄。不能踢掉第一位劫持者，也不能改他的入港決定。</li><li>最後才定案與結算。第一位海盜放棄，第二位仍可自行劫持；沒有合法決定入港則失敗。</li></ol></article>
+        </div>
+        <div class="crew-examples">
+          <h3>海盜登船後，誰留在船上？</h3>
+          <p>每組比較同一艘船的席位。字母與編號代表棋子；「盜」標記由海盜登船的棋子；空心圈是空席。</p>
+          <figure class="crew-case" id="boarding-open">
+            <figcaption><span>第二輪恰好 13 · 示意局面</span><h4>有空席，海盜補位</h4></figcaption>
+            <div class="crew-stages">
+            <div class="crew-stage">
+              <strong>登船前</strong>
+              <ol class="crew-seats">
+                <li><span class="seat-number">第 1 席</span><b class="crew-chip player-a">A1</b></li>
+                <li><span class="seat-number">第 2 席</span><span class="crew-chip vacant">空</span></li>
+                <li><span class="seat-number">第 3 席</span><b class="crew-chip player-b">B1</b></li>
+              </ol>
+            </div>
+            <span class="case-arrow" aria-hidden="true"></span>
+            <div class="crew-stage">
+              <strong>登船後</strong>
+              <ol class="crew-seats">
+                <li><span class="seat-number">第 1 席</span><b class="crew-chip player-a">A1</b></li>
+                <li class="changed-seat"><span class="seat-number">第 2 席</span><b class="crew-chip player-d">D1<small class="pirate-mark" role="img" aria-label="海盜登船">盜</small></b></li>
+                <li><span class="seat-number">第 3 席</span><b class="crew-chip player-b">B1</b></li>
+              </ol>
+            </div>
+            </div>
+            <p><strong>D1 進第 2 席</strong>，成為一般船員，原船員留在船上。</p>
+          </figure>
+          <figure class="crew-case" id="boarding-full">
+            <figcaption><span>第二輪恰好 13 · 示意局面</span><h4>滿船，替換一名一般船員</h4></figcaption>
+            <div class="crew-stages">
+            <div class="crew-stage">
+              <strong>替換前</strong>
+              <ol class="crew-seats">
+                <li><span class="seat-number">第 1 席</span><b class="crew-chip player-a">A1<small class="pirate-mark" role="img" aria-label="海盜登船">盜</small></b></li>
+                <li class="changed-seat"><span class="seat-number">第 2 席</span><b class="crew-chip player-b">B1</b></li>
+                <li><span class="seat-number">第 3 席</span><b class="crew-chip player-c">C1</b></li>
+              </ol>
+            </div>
+            <span class="case-arrow" aria-hidden="true"></span>
+            <div class="crew-stage">
+              <strong>替換後</strong>
+              <ol class="crew-seats">
+                <li><span class="seat-number">第 1 席</span><b class="crew-chip player-a">A1<small class="pirate-mark" role="img" aria-label="海盜登船">盜</small></b></li>
+                <li class="changed-seat"><span class="seat-number">第 2 席</span><b class="crew-chip player-d">D1<small class="pirate-mark" role="img" aria-label="海盜登船">盜</small></b></li>
+                <li><span class="seat-number">第 3 席</span><b class="crew-chip player-c">C1</b></li>
+              </ol>
+            </div>
+            </div>
+            <p><strong>B1 回手，D1 入第 2 席。</strong>A1 已在本輪由海盜登船，受保護，不能被 D1 換下。</p>
+          </figure>
+          <p class="pirate-wait"><strong>放棄登船</strong> → 船員原位保留；海盜留在海盜席，等第三輪。</p>
+          <figure class="crew-case" id="takeover-crew">
+            <figcaption><span>第三輪恰好 13 · 示意局面</span><h4>清空原船員，兩位留守海盜可同船</h4></figcaption>
+            <div class="crew-stages three-stages">
+            <div class="crew-stage">
+              <strong>原船員</strong>
+              <ol class="crew-seats">
+                <li><span class="seat-number">第 1 席</span><b class="crew-chip player-a">A1</b></li>
+                <li><span class="seat-number">第 2 席</span><b class="crew-chip player-b">B1</b></li>
+                <li><span class="seat-number">第 3 席</span><b class="crew-chip player-a">A2</b></li>
+                <li><span class="seat-number">第 4 席</span><span class="crew-chip vacant">空</span></li>
+              </ol>
+            </div>
+            <span class="case-arrow" aria-hidden="true"></span>
+            <div class="crew-stage">
+              <strong>D1 劫船</strong>
+              <ol class="crew-seats">
+                <li class="changed-seat"><span class="seat-number">第 1 席</span><b class="crew-chip player-d">D1<small class="pirate-mark" role="img" aria-label="海盜登船">盜</small></b></li>
+                <li><span class="seat-number">第 2 席</span><span class="crew-chip vacant">空</span></li>
+                <li><span class="seat-number">第 3 席</span><span class="crew-chip vacant">空</span></li>
+                <li><span class="seat-number">第 4 席</span><span class="crew-chip vacant">空</span></li>
+              </ol>
+            </div>
+            <span class="case-arrow" aria-hidden="true"></span>
+            <div class="crew-stage">
+              <strong>C1 選擇加入</strong>
+              <ol class="crew-seats">
+                <li><span class="seat-number">第 1 席</span><b class="crew-chip player-d">D1<small class="pirate-mark" role="img" aria-label="海盜登船">盜</small></b></li>
+                <li class="changed-seat"><span class="seat-number">第 2 席</span><b class="crew-chip player-c">C1<small class="pirate-mark" role="img" aria-label="海盜登船">盜</small></b></li>
+                <li><span class="seat-number">第 3 席</span><span class="crew-chip vacant">空</span></li>
+                <li><span class="seat-number">第 4 席</span><span class="crew-chip vacant">空</span></li>
+              </ol>
+            </div>
+            </div>
+            <p><strong>原船員全數回手。</strong>D1 占第 1 席並決定入港或停泊。C1 可加入空席或放棄；放棄時只有 D1 留船。C1 不能換下 D1 或改變其決定。</p>
+          </figure>
+          <p>若原船員中有第二輪登船的海盜，第三輪整船劫持仍會將他踢下船。骰後超過 13 或領航直接推到 13 都直接入港。</p>
+        </div>
+        <p class="note">被踢棋子回手、原位費原則不退。第二幕持令旗者可領原實付席費的軍功撫恤。領航直接推至 13 是入港，不走上面的海盜流程。</p>
+        <p class="source">依 §§7–8、15.3、20 與 2026-11-17 海盜保護補正。</p>
+      </section>
+      <section id="market">
+        <h2>股價、價差與事件</h2>
+        <div class="split">
+          <article class="tile price"><h3>股票股價</h3><p class="large">0–40 銀</p><p>計股票市值。初始 0，每次入港 +5 且失敗紀錄清零。出航連敗 −2、−3 交替；未出航保留股價與失敗紀錄。</p><p>二輪登船或三輪劫持每船每季只額外 −5 一次。荷蘭商館首艘成功船額外 +5。同季加減合併後才套上下限。</p></article>
+          <article class="tile price"><h3>去程商品價差</h3><p class="large">最低 −6</p><p>加在去程整船獎金上。初始 0、正向無上限。成功 −2，失敗 +2，未出航不變。</p><p>本季按結算前的價差派獎；新的價差留到下一季。商情和水師徵用只調當季獎金。</p></article>
+        </div>
+        <figure class="market-example" id="market-values">
+          <figcaption><span>假設案例 · 普通入港</span><h3>硫磺船入港，兩種數值反向變動</h3></figcaption>
+          <div class="market-tracks">
+            <div class="market-track stock-track">
+              <h4>股票股價 <span>計股票市值</span></h4>
+              <div class="value-steps">
+                <div><small>結算前</small><strong>20 銀</strong></div>
+                <span class="value-change"><span aria-hidden="true">↗</span> +5 銀</span>
+                <div><small>結算後</small><strong>25 銀</strong></div>
+              </div>
+            </div>
+            <div class="market-track spread-track">
+              <h4>商品價差 <span>加減去程整船獎金</span></h4>
+              <div class="value-steps">
+                <div><small>本季分紅用</small><strong>0 銀</strong></div>
+                <span class="value-change"><span aria-hidden="true">↘</span> −2 銀</span>
+                <div><small>下一季使用</small><strong>−2 銀</strong></div>
+              </div>
+            </div>
+          </div>
+          <p class="market-timing">本季仍按價差 <strong>0</strong> 派發整船 <strong>30 銀</strong>。派獎後更新價差，下一季才用 <strong>−2</strong>。</p>
+          <div class="market-failure">
+            <h4>若改成連續兩次出航都失敗（假設案例）</h4>
+            <dl>
+              <div><dt>股價</dt><dd>20 → 18（−2）→ 15（−3）</dd></div>
+              <div><dt>價差</dt><dd>0 → +2 → +4（每次 +2，下一季使用）</dd></div>
+            </dl>
+          </div>
+        </figure>
+        <p class="note">假設硫磺股價 20，本次遭海盜登船且是連續第二次出航失敗：20 − 5 − 3＝12。若入港，20 − 5 ＋ 5＝20，失敗紀錄清零。</p>
+        <p>起始股票只讓本人看。後續認購與精確剩餘庫存公開。抵押秘密股票會公開動作及現銀變動，但不揭商品。抵押借 12 銀、贖回付 15 銀；抵押中仍算持有。</p>
+        <h3 id="events">開季翻兩張牌</h3>
+        <p>天氣五張，每季全數洗回。政經每幕重組九張（七共通、二專屬），同幕已抽出的牌不洗回。</p>
+        <div class="table-frame"><table><caption>天氣牌效果</caption><thead><tr><th scope="col">天氣（機率）</th><th scope="col">首輪航程</th><th scope="col">獎金／保險收入</th></tr></thead>
+        <tbody><tr><th scope="row">颱風（20%）</th><td>−1</td><td>港口＋2／保險 14</td></tr><tr><th scope="row">順風（20%）</th><td>＋1</td><td>停泊＋2／保險 10</td></tr><tr><th scope="row">正常（60%）</th><td>不變</td><td>基本獎金／保險 10</td></tr></tbody></table></div>
+        <details><summary>四種商情與各幕政經卡</summary><div>
+          <p><strong>各幕共通</strong>：四貨商情各一張，以及藩庫徵調、荷蘭商館競購、澎湖暗礁。指定商情貨物正式入港後才擲兩顆六面骰，合計 2–5 為 −6、6–7 為 0、8–12 為 +18 銀。三段機率依序 10／36、11／36、15／36。沒有派或沒入港就不擲。藩庫可買兩種不同股票；荷蘭商館加首船商品股價；暗礁在骰後恰停 8 時失敗。</p>
+          <p><strong>第一、三幕</strong>：沿海盤查把一般贖金改成 8 銀，暗中疏通改成 4 銀。<strong>第二幕</strong>：硫磺、稻米徵用令各一張。指定商品第三骰航程 +2，成功船有去程分紅時整船 −8 銀；起點照常設定，未派指定貨物時無效。</p>
+        </div></details>
+        <p class="source">依 §§8.4、10–11、20。</p>
+      </section>
+      <section id="return">
+        <h2>回程投票與官府包銷</h2>
+        <p>只處理成功船，依到港順序。領航直接送達先於第三輪骰後到港；同輪其他並列以累計骰點較高者優先，再按船長派船次序。</p>
+        <div class="tile return-priority"><h3>第一／三幕 · 船員逐票決定</h3><p>先處理<a href="#camp">緝私營</a>。逐船由實際船員每枚一票，最高票選項通過。首輪最高票平手，全船重投且可重選任何當時合法項目；再平手則安全返航。可一次確認多枚自己的票，也可拆票。空船直接安全返航，不占貨物配額。</p><p>同一走私商品每季只給一艘船。安全返航無收益或拘押；走私後全船共同承擔後果，即使有人投反對票。</p></div>
+        <div class="table-frame"><table id="smuggling-values"><caption>走私成功門檻與整船獎金（銀）</caption><thead><tr><th scope="col">貨物</th><th scope="col">成功骰點</th><th scope="col">第一幕</th><th scope="col">第三幕</th></tr></thead>
+        <tbody><tr><th scope="row">布匹</th><td>2–6</td><td>24</td><td>24</td></tr><tr><th scope="row">瓷器</th><td>4–6</td><td>36</td><td>36</td></tr><tr><th scope="row">軍武</th><td>5–6</td><td>60</td><td>72</td></tr></tbody></table></div>
+        <p>成功按實際船員依席序整數均分；失敗發 0 銀，所有實際船員都遭拘押。軍武骰 1 是大失敗。</p>
+        <h3 id="government">第二幕 · 官府按順位包銷</h3>
+        <div class="acts rank"><article><b>第 1 名</b><h4>瓷器 18 銀</h4></article><article><b>第 2 名</b><h4>布匹 12 銀</h4></article><article><b>第 3 名</b><h4>無配額</h4></article></div>
+        <p>無回程投票、走私骰或緝私營。第一船的第 1 席若有實際船員（合法登船海盜也可），另外領皇商牌照 6 銀。<strong>空船照占正式名次，配額不順延</strong>；空船第一名沒人領瓷器或牌照，有船員的第二船只得布匹。</p>
+        <p class="source">依 §§12–14、20.9。</p>
+      </section>
+      <section id="custody">
+        <h2>緝私、拘押與令旗</h2>
+        <h3 id="camp">緝私營 · 僅第一、三幕</h3>
+        <p>去程結算後、回程投票前，從船長起順時針。轉職棋子須來自本季誤期船；不用另有閒置手下，即使也有到港船員仍可轉職。兩席各 3 銀，每人每季至多一席。</p>
+        <div class="table-frame"><table><caption>每位緝私營占席者的查獲獎金（銀）</caption><thead><tr><th scope="col">每艘走私失敗船</th><th scope="col">布匹</th><th scope="col">瓷器</th><th scope="col">軍武一般</th><th scope="col">軍武大失敗</th></tr></thead><tbody><tr><th scope="row">未扣自己船員前</th><td>8</td><td>12</td><td>16</td><td>20</td></tr></tbody></table></div>
+        <p>每艘分開算，該船上每枚自己的船員扣 4 銀，單船最低 0，再合計各船。拘押和贖金照常。沒人走私退 3 銀；有走私且全部成功不退款，也無賞金。</p>
+        <div class="split">
+          <article class="tile" id="ransom"><h3>拘押與贖回</h3><p>一般失敗通常每枚 6 銀贖回（盤查 8／疏通 4）。軍武骰 1 不可提前贖。未贖棋子下一完整季無法用，服滿至下一季末才釋放。</p></article>
+          <article class="tile" id="flags"><h3>水師令旗</h3><p>第一幕軍武成功，每枚實際船員替所屬玩家加一枚永久令旗。第二幕持旗者每季第三次成功配置免費（PASS 不計），海盜仍用配額；合法遭踢按實付船位費撫恤。</p><p>終局每枚另領 10 銀，計入現銀一次。</p></article>
+        </div>
+        <p class="source">依 §§13、15–17、19–20。</p>
+      </section>
+      <section id="scoring">
+        <h2>季末與終局</h2>
+        <p>去回程與贖金→釋放到期棋子→第一幕結束確認軍備支援→查同商品五股獨佔→一般第 7 季或延長第 8 季終局。終局總財富最高者獲勝，現銀及財富都可能為負。</p>
+        <div class="score"><h3>假設案例 · 最終財富 61 銀</h3>
+          <dl><div><dt>原有現銀</dt><dd>40</dd></div><div><dt>一枚令旗賞銀</dt><dd>＋10</dd></div><div><dt>一般拘押一枚、大失敗一枚</dt><dd>−6 −8</dd></div><div><dt>終局入帳後現銀</dt><dd>36</dd></div><div><dt>兩張股票，各值 20 銀</dt><dd>＋40</dd></div><div><dt>其中一張仍抵押</dt><dd>−15</dd></div><div class="total"><dt>正式總財富</dt><dd>61</dd></div></dl>
+          <p>40＋10−6−8＝36；36＋40−15＝61。若現銀已含軍功賞銀與強制贖金，財富只加股票市值、扣未贖抵押。終局贖金固定為一般 6 銀／大失敗 8 銀，不受事件調整。</p>
+        </div>
+        <p class="source">依 §§1、3、10.3、15.4、17–19。</p>
+      </section>
+      <section id="index">
+        <h2>判例與術語索引</h2>
+        <nav class="quick" aria-label="術語索引"><a href="#captain">標金／PASS</a><a href="#board">剛好 13／領航</a><a href="#goods">商品船位</a><a href="#port">港停／保險</a><a href="#pirates">二輪登船／三輪劫船</a><a href="#market">股價／價差</a><a href="#events">天氣／政經</a><a href="#return">回程／重投</a><a href="#government">包銷／空船</a><a href="#camp">緝私營</a><a href="#flags">令旗</a><a href="#ransom">拘押／贖金</a><a href="#scoring">終局／獨佔</a></nav>
+        <details><summary>沒有有效公開標金，或手上現銀不夠時怎麼辦？</summary><div><p>全員退出且無有效公開標，以及用尚未取得的抵押款或負債擔保超額標金，均尚未正式裁定。可在合法時點先抵押；秘密競標出 0 銀則已有正式規則。§§5、23</p></div></details>
+        <details id="funding"><summary>現銀不足時，什麼情況可用乞丐補助？</summary><div><p>所有可抵押的股票都抵押後，仍付不起最低費合法空席，才可把剩餘現銀付給該最低費席，差額由公庫補足。限一般配置，不適用競標、買股或贖金。負現銀時可免費選最低費合法席或 PASS，債務仍留在帳上。§17</p></div></details>
+        <details><summary>第 13 格、海盜名額與股價如何交叉判定？</summary><div><p>二輪兩位海盜都登船，即使兩席空出，若已用滿兩次下注名額也不能再押。若同一艘船又在三輪遭整船劫持，同季股價仍只扣一次 5 銀。從 0 開始算 −5＋5，合計裁切仍是 0。§§8.1、8.4、20 與 11-17 補正</p></div></details>
+        <details><summary>空船先到港，下一艘能選什麼？</summary><div><p>第一、三幕空船安全返航，布匹、瓷器、軍武都不因此用掉；下一艘有船員的船照常投票。第二幕空船第一名占瓷器 18 銀配額，無人領分紅或牌照，第二名只有布匹 12 銀。§§12、14、20.9</p></div></details>
+        <details><summary>自己船員被緝私，賞金可以抵贖金嗎？</summary><div><p>分開算。假設軍武大失敗船有兩枚自己的船員，緝私該船可拿 20−2×4＝12 銀；兩枚船員仍拘押，且不得提前贖回。§§13、16.3</p></div></details>
+        <p class="source">另見 §§20–23 的例外、版本差異與適用界線。</p>
+      </section>
+      <footer class="end"><div><strong>經典模式 V1.5</strong><br><small>含 2026-11-17 海盜保護補正</small></div><a href="haijin-v1.5.md">查閱正式規則全文</a><a href="#top">回頁首 ↑</a></footer>
+    </main>
+  </div>
+</body>
+</html>
